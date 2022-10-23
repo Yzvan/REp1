@@ -11,6 +11,7 @@ class ViewPagerAdapter:RecyclerView.Adapter<PagerVH>() {
         android.R.color.black,
         android.R.color.holo_red_light,
         android.R.color.holo_blue_dark,
+        android.R.color.black,
         android.R.color.holo_purple)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PagerVH =
         PagerVH(LayoutInflater.from(parent.context).inflate(R.layout.item_page, parent, false))
